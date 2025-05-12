@@ -1,24 +1,31 @@
-# Yanolja - Travel & Accommodation Booking Platform
+# Yanolja - Korean Travel & Accommodation Booking Platform
 
-A modern web application for booking hotels, resorts, pensions, and various travel accommodations built with Next.js and React.
+[![GitHub release](https://img.shields.io/github/v/release/henrynkoh/nolhouse)](https://github.com/henrynkoh/nolhouse/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-99.6%25-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-13.x-black)](https://nextjs.org/)
 
-## Features
+A modern, responsive web application for booking premium hotels, resorts, pensions, and various travel accommodations across Korea. Built with Next.js, React, and TypeScript.
 
-- User-friendly interface for browsing and booking accommodations
-- Category-based navigation for different types of accommodations
-- Live streaming and scheduled broadcasts for special promotions
-- Region-based accommodation recommendations
-- Detailed accommodation listings with ratings, prices, and amenities
-- Responsive design for all device types
+![Yanolja Platform Preview](https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80)
 
-## Technology Stack
+## ✨ Features
+
+- **User-friendly Interface**: Intuitive design for browsing and booking accommodations
+- **Category Navigation**: Easily find different types of accommodations (hotels, resorts, pensions, etc.)
+- **Live Streaming**: Watch scheduled broadcasts for special promotions and exclusive deals
+- **Regional Recommendations**: Discover accommodations by popular regions in Korea
+- **Detailed Listings**: Comprehensive information with ratings, prices, and amenities
+- **Responsive Design**: Optimized for all device types from mobile to desktop
+
+## 🛠️ Technology Stack
 
 - **Frontend**: Next.js, React, TypeScript
 - **Styling**: Tailwind CSS
 - **Image Optimization**: Next.js Image component
 - **Deployment**: Vercel (recommended)
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -29,8 +36,8 @@ A modern web application for booking hotels, resorts, pensions, and various trav
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/yanolja.git
-   cd yanolja
+   git clone https://github.com/henrynkoh/nolhouse.git
+   cd nolhouse
    ```
 
 2. Install dependencies
@@ -49,14 +56,30 @@ A modern web application for booking hotels, resorts, pensions, and various trav
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Project Structure
+## 📂 Project Structure
 
-- `/app` - Next.js app directory
+- `/app` - Next.js app directory with pages and layouts
 - `/components` - Reusable UI components
 - `/public` - Static assets (images, icons)
 - `/types` - TypeScript type definitions
 
-## Deployment
+## 📊 Key Components
+
+The platform includes several key components:
+- **SearchForm**: Advanced search functionality for accommodations
+- **CategoryNavigation**: Browsing by accommodation type
+- **LiveSection**: Live and upcoming promotional broadcasts
+- **PopularAccommodations**: Featured and trending places to stay
+- **RegionRecommendation**: Location-based recommendations
+
+## 📱 Screenshots
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+  <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" width="45%" alt="Hotel View" />
+  <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" width="45%" alt="Resort View" />
+</div>
+
+## 🔄 Deployment
 
 This application can be easily deployed on Vercel:
 
@@ -67,6 +90,25 @@ npm run start
 
 For production deployment, connect your GitHub repository to Vercel for automatic deployments.
 
-## License
+## 📚 Documentation
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+For more detailed information, please refer to our:
+- [Quick Start Guide](./QUICKSTART.md)
+- [User Manual](./MANUAL.md)
+- [Tutorials](./TUTORIAL.md)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 👥 Contributors
+
+- [Henry Oh](https://github.com/henrynkoh) - Project Lead
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. See our [Contributing Guidelines](./CONTRIBUTING.md) for more information.
+
+## 🌐 Website
+
+Visit our [official website](https://yanolja.vercel.app) to explore the platform. 
